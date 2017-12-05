@@ -23,7 +23,7 @@ Building
 ========
 
 1) Get gmmlib repo, make it look like
-	<workspace>
+	<workspace>	[This is gmmlib/Source]
 
        |- GmmLib
        
@@ -31,7 +31,7 @@ Building
 
 3) $ cd <workspace>/build
 
-4) cmake [-DCMAKE_BUILD_TYPE= Release | Debug | ReleaseInternal] [-DARCH= 64 | 32]  ../GmmLib
+4) cmake [-DBUILD_TYPE= release | debug | release-internal] [-DARCH= 64 | 32]  ../GmmLib
 
 5) $ make -j8 ( Also performs compile time ULT)
 
